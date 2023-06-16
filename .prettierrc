@@ -1,0 +1,19 @@
+{
+  "svelteSortOrder": "options-styles-scripts-markup",
+  "svelteStrictMode": true,
+  "svelteBracketNewLine": false,
+  "svelteAllowShorthand": false,
+  "svelteIndentScriptAndStyle": false,
+  "overrides": [
+    {
+      "files": "**/*.svelte",
+      "options": {
+        "svelteBracketNewLine": false,
+        "svelteAllowShorthand": false,
+        "svelteSortOrder": "options-scripts-styles-markup",
+        "plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"]
+      }
+    }
+  ],
+  "pluginSearchDirs": ["."]
+}
